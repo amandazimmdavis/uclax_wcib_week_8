@@ -1,0 +1,19 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+  body h1 {
+    font-size: 70px;
+    font-weight: 700; }
+  body .header {
+    background: #0cb3f8;
+    color: white; }
+  body .row {
+    background: yellow; }
+    body .row.hero-image {
+      background: #0cb3f8; }
+    body .row .price {
+      background: white;
+      border-radius: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px; }
+      body .row .price.alt {
+        background: blue; }
