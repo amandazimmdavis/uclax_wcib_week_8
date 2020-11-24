@@ -6,6 +6,8 @@ body {
     display: inline;
     float: left;
     margin-right: 15px;
+    width: 25px;
+    height:25px;
   }
 
   .makeEasy {
@@ -32,7 +34,6 @@ body {
 
   li:hover {
     text-decoration: underline;
-    text-decoration-thickness: 2px;
   }
 
   .appleLogo {
@@ -87,7 +88,7 @@ body {
 
   .motivate {
     font-size: 16pt;
-    font-weight: 1;
+    font-weight: normal;
     color: rgb(154, 154, 154);
     text-align: center;
     line-height: 0.5;
