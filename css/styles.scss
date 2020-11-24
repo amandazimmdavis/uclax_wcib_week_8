@@ -30,6 +30,11 @@ body {
     }
   }
 
+  li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
   .appleLogo {
     //display: inline;
     //float: left;

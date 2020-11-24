@@ -17,6 +17,9 @@ body {
     body .headerButtons.alt {
       border: 1px solid white;
       border-radius: 20px; }
+  body li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; }
   body .appleLogo {
     margin-right: 17px;
     width: 15px;
