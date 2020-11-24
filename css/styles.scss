@@ -2,31 +2,340 @@ body {
 
   font-family: 'Montserrat', sans-serif;
 
-  h1 {
-    font-size: 70px;
-    font-weight: 700;
+  .SmallLogo {
+    display: inline;
+    float: left;
+    margin-right: 15px;
   }
 
-  .header {
+  .makeEasy {
+    padding-top:  110px;
+    text-align: left;
+  }
+
+
+  .headerButtons {
+    background-color: transparent;
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    //display: inline;
+    //padding: 20px;
+    font-weight: bold;
+    border: none;
+
+    &.alt {
+      border: 1px solid white;
+      border-radius: 20px;
+    }
+  }
+
+  .appleLogo {
+    //display: inline;
+    //float: left;
+    margin-right: 17px;
+    width: 15px;
+    height: 17px;
+    //padding-left: 10px;
+  }
+
+  .bottomSpace {
+    padding-bottom:  45px;
+  }
+
+  .rightAlign {
+    float: right;
+  }
+
+  .verticalCenter {
+    vertical-align: middle;
+  }
+
+  .headerLeft {
+    color: white;
+    font-size: 16.39pt;
+    //font-weight: 5000;
+    //font-family: 'Montserrat', bold;
+  }
+
+
+  .container-footer-top {
+    padding-top: 25px;
+    padding-right: 98px;
+    padding-left: 98px;
+  }
+
+  .container-fluid {
+    padding-top: 57px;
+    padding-right: 98px;
+    padding-left: 98px;
     background: rgb(12,179,248);
+  }
+
+  h1 {
+    font-size: 44pt;
+    font-weight: bold;
+    padding-top: 55px;
+    text-align: center;
+    padding-bottom: 21px;
+  }
+
+  .motivate {
+    font-size: 16pt;
+    font-weight: 1;
+    color: rgb(154, 154, 154);
+    text-align: center;
+    line-height: 0.5;
+    &.alt{
+      padding-bottom: 75px;
+    }
+  }
+
+  ul{
+    list-style-image: url(../images/icon.png);
+    list-style-position: inside;
+  }
+
+
+  .new {
+    background-color: rgb(245,244,244);
+    color: black;
+    padding-left: 98px;
+  }
+
+  .newButtons {
+    border-radius: 20px;
+    width: 59px;
+    height: 19px;
+    font-size: 8px;
+    //display: inline;
+    //padding: 20px;
+    font-weight: bold;
+  }
+
+  .newui {
+    background-color: white;
+    color: black;
+    padding-left: 98px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    z-index: 2;
+  }
+  .putInLine {
+    display: inline;
+    padding-left: 36px;
+    font-size: 12px;
+  }
+
+
+
+  .header {
+    //background: rgb(12,179,248);
     color: white;
   }
-  .row {
-    background: yellow;
+  .newbackground {
+    background: rgb(245,244,244);
 
     &.hero-image {
       background: rgb(12,179,248);
     }
+  }
+
+  .newh3 {
+    font-size: 13pt;
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 10px;
 
 
-    .price {
-      background: white;
-      border-radius: 5px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      &.alt {
-        background: blue;
-      }
+  }
+
+  .newp {
+    font-size: 13px;
+    color: rgb(154,154,154);
+    padding-bottom: 38px;
+  }
+
+
+  .licenseButtons {
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    //display: inline;
+    //padding: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(27,139,249);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 44px;
+    margin-top: 40px;
+
+  }
+
+  .addMargins {
+    padding-right: 98px;
+    padding-left: 98px;
+    background-color: black;
+  }
+
+  .rowbackground {
+    padding-top: 62px;
+    background-color: black;
+    color: white;
+    &.licensehead {
+      font-weight: bold;
+      font-size: 40px;
+      padding-top: 0px;
+      padding-bottom: 35px;
+      line-height: 0.5;
+    }
+    &.licenseparagraph {
+      font-size: 14px;
+      line-height: 0.5;
+      padding-top: 0px;
+      color: rgb(126,133,139);
+    }
+
+  }
+
+  .price {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 111px;
+    margin-top: 78px;
+
+    &.alt {
+      background: rgb(27,139,249);
+      color: white;
     }
   }
+
+  .costsize {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+
+    &.altcostsize {
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+  }
+
+  .costdollar {
+    font-size: 45px;
+    font-weight: bold;
+    padding:5px;
+  }
+
+
+  .subscribe {
+    background-image: url(../images/cliffs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .subscribeheader {
+    padding-top: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 30pt;
+
+  }
+
+  .subscribebody {
+    color:white;
+    line-height: 0.5;
+
+  }
+
+  .subscribeemail {
+    color: rgb(255,255,255);
+    background-color: gray;
+    opacity: 0.6;
+    //border: 1px;
+    //border-style: solid;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:240px;
+
+    display:inline;
+
+  }
+
+  .subscribebutton {
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    //display: inline;
+    //padding: 20px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
+  }
+
+
+  .horizontalul {
+    list-style-type: none;
+    margin: 0;
+    //padding: 16px;
+    overflow: hidden;
+  }
+
+  //.horizontalli {
+    //float: left;
+  //}
+  .horizontallia {
+    display: block;
+    color: black;
+    //text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    display: inline;
+    font-size: 10pt;
+    font-weight: bold;
+    //align-items: center;
+
+    &.headerlist {
+      color: white;
+      list-style-type: none;
+    }
+
+    &halt{
+      padding-left: 100px;
+    }
+  }
+
+  .footerText {
+    color: black;
+    font-size: 16.39pt;
+    //font-weight: 5000;
+    //font-family: 'Montserrat', bold;
+  }
+
+  .footerText2 {
+    color: rgb(169,169,170);
+    font-size: 12px;
+    line-height: 0.5;
+    //float: left;
+  }
+
+  .awesomeApp {
+    float: right;
+    font-size: 10px;
+  }
+
+  .pad-top-footer {
+    padding-top: 80px;
+  }
+
 }

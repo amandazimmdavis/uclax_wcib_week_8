@@ -1,19 +1,208 @@
 body {
   font-family: 'Montserrat', sans-serif; }
+  body .SmallLogo {
+    display: inline;
+    float: left;
+    margin-right: 15px; }
+  body .makeEasy {
+    padding-top: 110px;
+    text-align: left; }
+  body .headerButtons {
+    background-color: transparent;
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none; }
+    body .headerButtons.alt {
+      border: 1px solid white;
+      border-radius: 20px; }
+  body .appleLogo {
+    margin-right: 17px;
+    width: 15px;
+    height: 17px; }
+  body .bottomSpace {
+    padding-bottom: 45px; }
+  body .rightAlign {
+    float: right; }
+  body .verticalCenter {
+    vertical-align: middle; }
+  body .headerLeft {
+    color: white;
+    font-size: 16.39pt; }
+  body .container-footer-top {
+    padding-top: 25px;
+    padding-right: 98px;
+    padding-left: 98px; }
+  body .container-fluid {
+    padding-top: 57px;
+    padding-right: 98px;
+    padding-left: 98px;
+    background: #0cb3f8; }
   body h1 {
-    font-size: 70px;
-    font-weight: 700; }
+    font-size: 44pt;
+    font-weight: bold;
+    padding-top: 55px;
+    text-align: center;
+    padding-bottom: 21px; }
+  body .motivate {
+    font-size: 16pt;
+    font-weight: 1;
+    color: #9a9a9a;
+    text-align: center;
+    line-height: 0.5; }
+    body .motivate.alt {
+      padding-bottom: 75px; }
+  body ul {
+    list-style-image: url(../images/icon.png);
+    list-style-position: inside; }
+  body .new {
+    background-color: #f5f4f4;
+    color: black;
+    padding-left: 98px; }
+  body .newButtons {
+    border-radius: 20px;
+    width: 59px;
+    height: 19px;
+    font-size: 8px;
+    font-weight: bold; }
+  body .newui {
+    background-color: white;
+    color: black;
+    padding-left: 98px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    z-index: 2; }
+  body .putInLine {
+    display: inline;
+    padding-left: 36px;
+    font-size: 12px; }
   body .header {
-    background: #0cb3f8;
     color: white; }
-  body .row {
-    background: yellow; }
-    body .row.hero-image {
+  body .newbackground {
+    background: #f5f4f4; }
+    body .newbackground.hero-image {
       background: #0cb3f8; }
-    body .row .price {
-      background: white;
-      border-radius: 5px;
-      padding-top: 20px;
-      padding-bottom: 10px; }
-      body .row .price.alt {
-        background: blue; }
+  body .newh3 {
+    font-size: 13pt;
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 10px; }
+  body .newp {
+    font-size: 13px;
+    color: #9a9a9a;
+    padding-bottom: 38px; }
+  body .licenseButtons {
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 3px solid #1b8bf9;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 44px;
+    margin-top: 40px; }
+  body .addMargins {
+    padding-right: 98px;
+    padding-left: 98px;
+    background-color: black; }
+  body .rowbackground {
+    padding-top: 62px;
+    background-color: black;
+    color: white; }
+    body .rowbackground.licensehead {
+      font-weight: bold;
+      font-size: 40px;
+      padding-top: 0px;
+      padding-bottom: 35px;
+      line-height: 0.5; }
+    body .rowbackground.licenseparagraph {
+      font-size: 14px;
+      line-height: 0.5;
+      padding-top: 0px;
+      color: #7e858b; }
+  body .price {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 111px;
+    margin-top: 78px; }
+    body .price.alt {
+      background: #1b8bf9;
+      color: white; }
+  body .costsize {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px; }
+    body .costsize.altcostsize {
+      font-weight: normal;
+      margin-bottom: 30px; }
+  body .costdollar {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 5px; }
+  body .subscribe {
+    background-image: url(../images/cliffs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+  body .subscribeheader {
+    padding-top: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 30pt; }
+  body .subscribebody {
+    color: white;
+    line-height: 0.5; }
+  body .subscribeemail {
+    color: white;
+    background-color: gray;
+    opacity: 0.6;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 240px;
+    display: inline; }
+  body .subscribebutton {
+    width: 143px;
+    height: 42px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px; }
+  body .horizontalul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden; }
+  body .horizontallia {
+    display: block;
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    display: inline;
+    font-size: 10pt;
+    font-weight: bold; }
+    body .horizontallia.headerlist {
+      color: white;
+      list-style-type: none; }
+    body .horizontalliahalt {
+      padding-left: 100px; }
+  body .footerText {
+    color: black;
+    font-size: 16.39pt; }
+  body .footerText2 {
+    color: #a9a9aa;
+    font-size: 12px;
+    line-height: 0.5; }
+  body .awesomeApp {
+    float: right;
+    font-size: 10px; }
+  body .pad-top-footer {
+    padding-top: 80px; }
