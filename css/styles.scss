@@ -6,13 +6,20 @@ body {
     display: inline;
     float: left;
     margin-right: 15px;
-    width: 25px;
-    height:25px;
+
+
   }
 
   .makeEasy {
     padding-top:  110px;
     text-align: left;
+  }
+
+  .makeEasyBody {
+  width: 70%;
+  font-size: 20px;
+  padding-bottom: 100px;
+
   }
 
 
@@ -26,7 +33,7 @@ body {
     font-weight: bold;
     border: none;
 
-    &.alt {
+    &.HBalt {
       border: 1px solid white;
       border-radius: 20px;
     }
@@ -65,18 +72,14 @@ body {
   }
 
 
-  .container-footer-top {
-    padding-top: 25px;
-    padding-right: 98px;
-    padding-left: 98px;
-  }
-
-  .container-fluid {
+  .topAreaClass {
     padding-top: 57px;
     padding-right: 98px;
     padding-left: 98px;
     background: rgb(12,179,248);
   }
+
+
 
   h1 {
     font-size: 44pt;
@@ -87,14 +90,14 @@ body {
   }
 
   .motivate {
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: normal;
     color: rgb(154, 154, 154);
     text-align: center;
-    line-height: 0.5;
-    &.alt{
-      padding-bottom: 75px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 75px;
   }
 
   ul{
@@ -106,7 +109,14 @@ body {
   .new {
     background-color: rgb(245,244,244);
     color: black;
+    //padding-left: 98px;
+  }
+
+  .newBigThing {
+    padding-top: 40px;
+    padding-right: 98px;
     padding-left: 98px;
+  //  background: rgb(12,179,248);
   }
 
   .newButtons {
@@ -150,17 +160,33 @@ body {
   .newh3 {
     font-size: 13pt;
     font-weight: bold;
+
     padding-top: 38px;
     padding-bottom: 10px;
 
+  //  text-align: center;
+  //  margin-left: auto;
+  //  margin-right: auto;
+  //  width: 35%;
 
   }
 
   .newp {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 194px;
+
     font-size: 13px;
     color: rgb(154,154,154);
     padding-bottom: 38px;
   }
+
+.centerPhone {
+  margin: auto;
+  display: block;
+
+}
 
 
   .licenseButtons {
@@ -179,31 +205,57 @@ body {
 
   }
 
+
+
+  .rowbackground {
+    background-color: black;
+    color: white;
+
+    &.licensehead {
+      font-weight: bold;
+      font-size: 40px;
+      padding-top: 62px;
+      //padding-bottom: 35px;
+      //line-height: 0.5;
+    }
+    &.licenseparagraph {
+      font-size: 14px;
+      //line-height: 0.5;
+      padding-top: 0px;
+      //width: 450px;
+      width: 50%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(126,133,139);
+    }
+  }
+
+
+
+/////Basic_Medium_Interprise and ChooseLicense type
   .addMargins {
     padding-right: 98px;
     padding-left: 98px;
     background-color: black;
   }
 
-  .rowbackground {
-    padding-top: 62px;
-    background-color: black;
-    color: white;
-    &.licensehead {
-      font-weight: bold;
-      font-size: 40px;
-      padding-top: 0px;
-      padding-bottom: 35px;
-      line-height: 0.5;
-    }
-    &.licenseparagraph {
-      font-size: 14px;
-      line-height: 0.5;
-      padding-top: 0px;
-      color: rgb(126,133,139);
-    }
+////Basic_Medium_Interprise////
+//////////////////////////////
+//////////////////////////////
 
-  }
+.BMIlowerMargin {
+  padding-bottom: 100px;
+}
+
+.rowbackgroundBMI {
+  background-color: black;
+  color: white;
+}
+
+.underLicenseMargin {
+  padding-top: 78px;
+}
 
   .price {
     background: white;
@@ -211,10 +263,8 @@ body {
     border-radius: 5px;
     padding-top: 35px;
     padding-bottom: 10px;
-    margin-bottom: 111px;
-    margin-top: 78px;
 
-    &.alt {
+    &.Palt {
       background: rgb(27,139,249);
       color: white;
     }
@@ -223,21 +273,29 @@ body {
   .costsize {
     font-size: 13px;
     font-weight: bold;
-    padding: 5px;
-
-    &.altcostsize {
-      font-weight: normal;
-      margin-bottom: 30px;
-    }
+    margin-bottom: 30px;
+    //&.altcostsize {
+  //    font-weight: normal;
+//     margin-bottom: 30px;
   }
 
+.liClass0 {
+  margin-right: 45px;
+}
   .costdollar {
     font-size: 45px;
     font-weight: bold;
     padding:5px;
   }
+//////////////////////////
+//////////////////////////
+//////////////////////////
 
 
+
+//////////////////////////////
+////Subscribe Section Begin////
+//////////////////////////////
   .subscribe {
     background-image: url(../images/cliffs.png);
     background-repeat: no-repeat;
@@ -246,16 +304,21 @@ body {
   }
 
   .subscribeheader {
-    padding-top: 70px;
+    padding-top: 60px;
     color: white;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 34pt;
 
   }
 
   .subscribebody {
     color:white;
-    line-height: 0.5;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
@@ -263,15 +326,12 @@ body {
     color: rgb(255,255,255);
     background-color: gray;
     opacity: 0.6;
-    //border: 1px;
-    //border-style: solid;
+    border-radius: 7px;
+    border: 0px;
     width: 320px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    padding-right:240px;
-
-    display:inline;
 
   }
 
@@ -287,29 +347,39 @@ body {
     background-color: white;
     color: black;
     margin-bottom: 100px;
-  }
 
+  }
+  //////////////////////////////
+  ////Subscribe Section End////
+  //////////////////////////////
+
+
+
+
+  //////////////////////////////
+  ////Footer Section Begin and Header list////
+  //////////////////////////////
+  .container-footer-top {
+    padding-top: 25px;
+    padding-right: 98px;
+    padding-left: 98px;
+
+  }
 
   .horizontalul {
-    list-style-type: none;
-    margin: 0;
-    //padding: 16px;
-    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  //.horizontalli {
-    //float: left;
-  //}
   .horizontallia {
-    display: block;
+    display: inline-block;
+    list-style-type: none;
     color: black;
-    //text-align: center;
     padding: 14px;
     text-decoration: none;
-    display: inline;
     font-size: 10pt;
     font-weight: bold;
-    //align-items: center;
 
     &.headerlist {
       color: white;
@@ -321,6 +391,7 @@ body {
     }
   }
 
+
   .footerText {
     color: black;
     font-size: 16.39pt;
@@ -331,8 +402,9 @@ body {
   .footerText2 {
     color: rgb(169,169,170);
     font-size: 12px;
-    line-height: 0.5;
-    //float: left;
+    //line-height: 0.5;
+    float: left;
+    width: 33%;
   }
 
   .awesomeApp {
@@ -341,7 +413,11 @@ body {
   }
 
   .pad-top-footer {
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
+  //////////////////////////////
+  ////Footer Section End////
+  //////////////////////////////
 
 }

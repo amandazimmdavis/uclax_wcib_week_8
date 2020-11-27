@@ -3,12 +3,14 @@ body {
   body .SmallLogo {
     display: inline;
     float: left;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px; }
+    margin-right: 15px; }
   body .makeEasy {
     padding-top: 110px;
     text-align: left; }
+  body .makeEasyBody {
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 100px; }
   body .headerButtons {
     background-color: transparent;
     width: 143px;
@@ -16,7 +18,7 @@ body {
     font-size: 11px;
     font-weight: bold;
     border: none; }
-    body .headerButtons.alt {
+    body .headerButtons.HBalt {
       border: 1px solid white;
       border-radius: 20px; }
   body li:hover {
@@ -34,11 +36,7 @@ body {
   body .headerLeft {
     color: white;
     font-size: 16.39pt; }
-  body .container-footer-top {
-    padding-top: 25px;
-    padding-right: 98px;
-    padding-left: 98px; }
-  body .container-fluid {
+  body .topAreaClass {
     padding-top: 57px;
     padding-right: 98px;
     padding-left: 98px;
@@ -50,19 +48,23 @@ body {
     text-align: center;
     padding-bottom: 21px; }
   body .motivate {
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: normal;
     color: #9a9a9a;
     text-align: center;
-    line-height: 0.5; }
-    body .motivate.alt {
-      padding-bottom: 75px; }
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 75px; }
   body ul {
     list-style-image: url(../images/icon.png);
     list-style-position: inside; }
   body .new {
     background-color: #f5f4f4;
-    color: black;
+    color: black; }
+  body .newBigThing {
+    padding-top: 40px;
+    padding-right: 98px;
     padding-left: 98px; }
   body .newButtons {
     border-radius: 20px;
@@ -93,9 +95,16 @@ body {
     padding-top: 38px;
     padding-bottom: 10px; }
   body .newp {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 194px;
     font-size: 13px;
     color: #9a9a9a;
     padding-bottom: 38px; }
+  body .centerPhone {
+    margin: auto;
+    display: block; }
   body .licenseButtons {
     width: 143px;
     height: 42px;
@@ -107,43 +116,47 @@ body {
     color: black;
     margin-bottom: 44px;
     margin-top: 40px; }
-  body .addMargins {
-    padding-right: 98px;
-    padding-left: 98px;
-    background-color: black; }
   body .rowbackground {
-    padding-top: 62px;
     background-color: black;
     color: white; }
     body .rowbackground.licensehead {
       font-weight: bold;
       font-size: 40px;
-      padding-top: 0px;
-      padding-bottom: 35px;
-      line-height: 0.5; }
+      padding-top: 62px; }
     body .rowbackground.licenseparagraph {
       font-size: 14px;
-      line-height: 0.5;
       padding-top: 0px;
+      width: 50%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
       color: #7e858b; }
+  body .addMargins {
+    padding-right: 98px;
+    padding-left: 98px;
+    background-color: black; }
+  body .BMIlowerMargin {
+    padding-bottom: 100px; }
+  body .rowbackgroundBMI {
+    background-color: black;
+    color: white; }
+  body .underLicenseMargin {
+    padding-top: 78px; }
   body .price {
     background: white;
     color: black;
     border-radius: 5px;
     padding-top: 35px;
-    padding-bottom: 10px;
-    margin-bottom: 111px;
-    margin-top: 78px; }
-    body .price.alt {
+    padding-bottom: 10px; }
+    body .price.Palt {
       background: #1b8bf9;
       color: white; }
   body .costsize {
     font-size: 13px;
     font-weight: bold;
-    padding: 5px; }
-    body .costsize.altcostsize {
-      font-weight: normal;
-      margin-bottom: 30px; }
+    margin-bottom: 30px; }
+  body .liClass0 {
+    margin-right: 45px; }
   body .costdollar {
     font-size: 45px;
     font-weight: bold;
@@ -154,23 +167,28 @@ body {
     background-size: cover;
     text-align: center; }
   body .subscribeheader {
-    padding-top: 70px;
+    padding-top: 60px;
     color: white;
     font-weight: bold;
-    font-size: 30pt; }
+    font-size: 34pt; }
   body .subscribebody {
     color: white;
-    line-height: 0.5; }
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    width: 26%;
+    margin-left: auto;
+    margin-right: auto; }
   body .subscribeemail {
     color: white;
     background-color: gray;
     opacity: 0.6;
+    border-radius: 7px;
+    border: 0px;
     width: 320px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 240px;
-    display: inline; }
+    padding-left: 10px; }
   body .subscribebutton {
     width: 143px;
     height: 42px;
@@ -181,16 +199,20 @@ body {
     background-color: white;
     color: black;
     margin-bottom: 100px; }
+  body .container-footer-top {
+    padding-top: 25px;
+    padding-right: 98px;
+    padding-left: 98px; }
   body .horizontalul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden; }
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
   body .horizontallia {
-    display: block;
+    display: inline-block;
+    list-style-type: none;
     color: black;
     padding: 14px;
     text-decoration: none;
-    display: inline;
     font-size: 10pt;
     font-weight: bold; }
     body .horizontallia.headerlist {
@@ -204,9 +226,11 @@ body {
   body .footerText2 {
     color: #a9a9aa;
     font-size: 12px;
-    line-height: 0.5; }
+    float: left;
+    width: 33%; }
   body .awesomeApp {
     float: right;
     font-size: 10px; }
   body .pad-top-footer {
-    padding-top: 80px; }
+    padding-top: 60px;
+    padding-bottom: 20px; }
